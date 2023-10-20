@@ -1,0 +1,60 @@
+.container-fluid {
+    background-color: aquamarine;
+}
+
+.ms_square {
+    width: calc(100% / 10);
+    aspect-ratio: 1;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fizz {
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+.Buzz {
+    color: purple;
+    background-color: green;
+    transform: rotate(-45deg);
+}
+
+.FizzBuzz {
+    color: blue;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: disco .3s linear infinite;
+}
+
+@keyframes disco {
+    
+    0% {
+        color: white;
+        background-color: blue;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        color: black;
+        background-color: white;
+    }
+
+    100%{
+        color: white;
+        background-color: blue;
+    }
+}
